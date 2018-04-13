@@ -1,0 +1,19 @@
+{
+    "What you want to learn? symbol[1], number[2], atomic mass[3] or category[4]: ":"Mitä haluat opiskella? merkit[1], järjestysluvut[2], massaluvut[3] tai kategoriat[4]: ",
+    "What you want to learn? name[1], symbol[2]":"Mitä haluat opiskella? nimet[1], merkit[2]: ",
+    "Hey, that's not an option!":"Hei, ei ollut vaihtoehto!",
+    "Select test options: ":"Valitse mitä tietokone näyttää: ",
+    "Show atom name[1], number[2], symbol[3], atomic mass[4]: ":"Näytä alkuaineen nimi[1], järjestysluku[2], merkki[3] tai atomimassa[4]: ",
+    "Goodbye and welcome back later!":"Tervetuloa uudelleen!",
+    "What you want to learn? name[1], symbol[2]: ":"Mitä haluat opiskella? nimet[1], merkit[2]: ",
+    "What is the chemical symbol of element?":"Mikä on alkuaineen kemiallinen merkki?",
+    "Correct!":"Oikein!",
+    "Not a correct answer! Correct answer is ":"Väärin! Oikea vastaus on ",
+    "You get ":"Sait ",
+    " points.":" pistettä.",
+    "What is the name of the element? ":"Mikä on alkuaineen nimi? ",
+    "What is the number of the element? ":"Mikä on alkuaineen järjestysluku? ",
+    "What is the atomic mass of the element? ":"Mikä on alkuaineen atomimassa? ",
+    "What is the category of the element? ":"Mikä on alkuaineen kategoria? ",
+    "What is the symbol of the element? ":"Mikä on alkuaineen kemiallinen merkki? "
+}
