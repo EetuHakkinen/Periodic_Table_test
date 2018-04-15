@@ -141,6 +141,7 @@ public class Main{
                 break;
             } else {
                 System.out.println("Hey, that's not an option! / Ei ollut vaihtoehto!");
+                language = reader.nextLine();
             }
         }
     }
@@ -258,11 +259,11 @@ public class Main{
                 System.out.println(k.translate("Correct!"));
             } else {
                 correct.add(correct.get(index));
-                System.out.println(k.translate("Not a correct answer! Correct answer is ") + correct.get(index).getSymbol());
+                System.out.println(k.translate("Not the correct answer! Correct answer is %1", correct.get(index).getSymbol()));
             }
         }
         System.out.println();
-        System.out.println(k.translate("You get ") + points + k.translate(" points."));
+        System.out.println(k.translate("You got %1 points.", points));
     }
     public static void numberName(ArrayList<Element> substances, String language){
         Translator k = new Translator(language);
@@ -286,11 +287,11 @@ public class Main{
                 System.out.println(k.translate("Correct!"));
             } else {
                 correct.add(correct.get(index));
-                System.out.println(k.translate("Not a correct answer! Correct answer is ") + correct.get(index).getName(language));
+                System.out.println(k.translate("Not the correct answer! Correct answer is %1", correct.get(index).getName(language)));
             }
         }
         System.out.println();
-        System.out.println(k.translate("You get ") + points + k.translate(" points."));
+        System.out.println(k.translate("You got %1 points.", points));
     }
 	public static void nameNumber(ArrayList<Element> substances, String language){
         Translator k = new Translator(language);
@@ -316,11 +317,11 @@ public class Main{
                 System.out.println(k.translate("Correct!"));
             } else {
                 correct.add(correct.get(index));
-                System.out.println(k.translate("Not a correct answer! Correct answer is ") + correct.get(index).getNumber());
+                System.out.println(k.translate("Not the correct answer! Correct answer is %1", correct.get(index).getNumber()));
             }
         }
         System.out.println();
-        System.out.println(k.translate("You get ") + points + k.translate(" points."));
+        System.out.println(k.translate("You got %1 points.", points));
     }
     public static void nameAtomicMass(ArrayList<Element> substances, String language){
         Translator k = new Translator(language);
@@ -346,11 +347,11 @@ public class Main{
                 System.out.println(k.translate("Correct!"));
             } else {
                 correct.add(correct.get(index));
-                System.out.println(k.translate("Not a correct answer! Correct answer is ") + correct.get(index).getAtomicMass());
+                System.out.println(k.translate("Not the correct answer! Correct answer is %1", correct.get(index).getAtomicMass()));
             }
         }
         System.out.println();
-        System.out.println(k.translate("You get ") + points + k.translate(" points."));
+        System.out.println(k.translate("You got %1 points.", points));
     }
     public static void nameCategory(ArrayList<Element> substances, String language){
         Translator k = new Translator(language);
@@ -374,11 +375,11 @@ public class Main{
                 System.out.println(k.translate("Correct!"));
             } else {
                 correct.add(correct.get(index));
-                System.out.println(k.translate("Not a correct answer! Correct answer is ") + correct.get(index).getCategory(language));
+                System.out.println(k.translate("Not the correct answer! Correct answer is %1", correct.get(index).getCategory(language)));
             }
         }
         System.out.println();
-        System.out.println(k.translate("You get ") + points + k.translate(" points."));
+        System.out.println(k.translate("You got %1 points.", points));
     }
     public static void numberSymbol(ArrayList<Element> substances, String language){
         Translator k = new Translator(language);
@@ -402,11 +403,11 @@ public class Main{
                 System.out.println(k.translate("Correct!"));
             } else {
                 correct.add(correct.get(index));
-                System.out.println(k.translate("Not a correct answer! Correct answer is ") + correct.get(index).getSymbol());
+                System.out.println(k.translate("Not the correct answer! Correct answer is %1", correct.get(index).getSymbol()));
             }
         }
         System.out.println();
-        System.out.println(k.translate("You get ") + points + k.translate(" points."));
+        System.out.println(k.translate("You got %1 points.", points));
     }
     public static void symbolName(ArrayList<Element> substances, String language){
         Translator k = new Translator(language);
@@ -430,11 +431,11 @@ public class Main{
                 System.out.println(k.translate("Correct!"));
             } else {
                 correct.add(correct.get(index));
-                System.out.println(k.translate("Not a correct answer! Correct answer is ") + correct.get(index).getName(language));
+                System.out.println(k.translate("Not the correct answer! Correct answer is %1", correct.get(index).getName(language)));
             }
         }
         System.out.println();
-        System.out.println(k.translate("You get ") + points + k.translate(" points."));
+        System.out.println(k.translate("You got %1 points.", points));
     }
     public static void symbolNumber(ArrayList<Element> substances, String language){
         Translator k = new Translator(language);
@@ -458,11 +459,11 @@ public class Main{
                 System.out.println(k.translate("Correct!"));
             } else {
                 correct.add(correct.get(index));
-                System.out.println(k.translate("Not a correct answer! Correct answer is ") + correct.get(index).getNumber());
+                System.out.println(k.translate("Not the correct answer! Correct answer is %1", correct.get(index).getNumber()));
             }
         }
         System.out.println();
-        System.out.println(k.translate("You get ") + points + k.translate(" points."));
+        System.out.println(k.translate("You got %1 points.", points));
     }
     public static void symbolAtomicMass(ArrayList<Element> substances, String language){
         Translator k = new Translator(language);
@@ -486,11 +487,11 @@ public class Main{
                 System.out.println(k.translate("Correct!"));
             } else {
                 correct.add(correct.get(index));
-                System.out.println(k.translate("Not a correct answer! Correct answer is ") + correct.get(index).getAtomicMass());
+                System.out.println(k.translate("Not the correct answer! Correct answer is %1", correct.get(index).getAtomicMass()));
             }
         }
         System.out.println();
-        System.out.println(k.translate("You get ") + points + k.translate(" points."));
+        System.out.println(k.translate("You got %1 points.", points));
     }
     public static void symbolCategory(ArrayList<Element> substances, String language){
         Translator k = new Translator(language);
@@ -514,11 +515,11 @@ public class Main{
                 System.out.println(k.translate("Correct!"));
             } else {
                 correct.add(correct.get(index));
-                System.out.println(k.translate("Not a correct answer! Correct answer is ") + correct.get(index).getCategory(language));
+                System.out.println(k.translate("Not the correct answer! Correct answer is %1", correct.get(index).getCategory(language)));
             }
         }
         System.out.println();
-        System.out.println(k.translate("You get ") + points + k.translate(" points."));
+        System.out.println(k.translate("You got %1 points.", points));
     }
     public static void atomicMassName(ArrayList<Element> substances, String language){
         Translator k = new Translator(language);
@@ -542,11 +543,11 @@ public class Main{
                 System.out.println(k.translate("Correct!"));
             } else {
                 correct.add(correct.get(index));
-                System.out.println(k.translate("Not a correct answer! Correct answer is ") + correct.get(index).getName(language));
+                System.out.println(k.translate("Not the correct answer! Correct answer is %1", correct.get(index).getName(language)));
             }
         }
         System.out.println();
-        System.out.println(k.translate("You get ") + points + k.translate(" points."));
+        System.out.println(k.translate("You got %1 points.", points));
     }
     public static void atomicMassSymbol(ArrayList<Element> substances, String language){
         Translator k = new Translator(language);
@@ -570,10 +571,10 @@ public class Main{
                 System.out.println(k.translate("Correct!"));
             } else {
                 correct.add(correct.get(index));
-                System.out.println(k.translate("Not a correct answer! Correct answer is ") + correct.get(index).getSymbol());
+                System.out.println(k.translate("Not the correct answer! Correct answer is %1", correct.get(index).getSymbol()));
             }
         }
         System.out.println();
-        System.out.println(k.translate("You get ") + points + k.translate(" points."));
+        System.out.println(k.translate("You got %1 points.", points));
     }
 }

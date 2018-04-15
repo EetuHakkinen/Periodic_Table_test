@@ -25,4 +25,13 @@ public class Translator{
             return ilmaus;
         }
     }
+    public String translate(String ilmaus, Object... args){
+        String str = translate(ilmaus);
+        int i = 1;
+        for (Object a : args){
+            str = str.replace("%" + String.valueOf(i), String.valueOf(a));
+            i++;
+        }
+        return str;
+    }
 }
