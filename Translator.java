@@ -1,14 +1,14 @@
 import javax.json.*;
 import java.io.*;
 
-public class Kaantaja{
+public class Translator{
     private String language;
     private JsonObject object;
 
     public Translator(String language){
         try {
             this.language = language;
-            FileReader read = new FileReader("./Kaantaja.json");
+            FileReader read = new FileReader("./Translator.json");
             JsonReader jsonReader = Json.createReader(read);
             JsonObject object = jsonReader.readObject();
             jsonReader.close();
